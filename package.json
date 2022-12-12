@@ -1,5 +1,5 @@
 {
-  "name": "selfsigned",
+  "name": "@signiant/jfromaniello/selfsigned",
   "version": "2.1.1",
   "description": "Generate self signed certificates private and public keys",
   "main": "index.js",
@@ -10,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "git://github.com/jfromaniello/selfsigned.git"
+  },
+  "publishConfig": {
+    "registry": "https://signiant.jfrog.io/artifactory/api/npm/npm-local"
   },
   "keywords": [
     "openssl",
